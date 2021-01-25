@@ -14,7 +14,7 @@ function Projects() {
                     <div className='about-project'>
                         <h5>RoboFriends</h5>
                         <p>React</p>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem</p>
+                        <p>This RoboFriend app is made by using React, It is a simple app fetching data from a API and displaying asynchronously.</p>
                         <p className='project-btn'>
                             <a href='https://github.com/shivamtiwari2112/robofriends' rel='noreferrer' target='_blank'>Github</a>
                             <a href='https://shivamtiwari2112.github.io/robofriends/' rel='noreferrer' target='_blank'>See Live</a>
@@ -26,7 +26,7 @@ function Projects() {
                     <div className='about-project'>
                         <h5>Smart Brain</h5>
                         <p>React</p>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem</p>
+                        <p>As it name suggests, This app can detect faces of the images. Machine Learning API is used. It has also backend which store user information.</p>
                         <p className='project-btn'>
                             <a href='https://github.com/shivamtiwari2112/smart-brain' rel='noreferrer' target='_blank'>Github</a>
                             <a href='https://face-recognition-brain-smart.herokuapp.com/' rel='noreferrer' target='_blank'>See Live</a>

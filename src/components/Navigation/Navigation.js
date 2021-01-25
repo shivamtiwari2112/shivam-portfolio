@@ -4,7 +4,7 @@ import './navigation.css';
 function Navigation () {
     return (
         <nav>
-            <p>Shivam Kumar</p>
+            <p><a href='/'>Shivam Kumar</a></p>
             <ul>
                 <li><a href="/#container">About</a></li>
                 <li><a href="/#project">Projects</a></li>

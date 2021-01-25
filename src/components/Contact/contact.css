@@ -44,3 +44,17 @@
      }
  }
 
+@media (max-width: 700px) {
+    #contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #para{
+        text-align: center;
+        margin: 10px 0 50px 0;
+    }
+    #links{
+        margin-bottom: 50px;
+    }
+}

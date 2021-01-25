@@ -24,3 +24,10 @@ span {
     }
 }
 
+@media all and (max-width: 444px) {
+    .main-header h1{
+        font-size: 2em;
+        text-align: center;
+    }
+}
+

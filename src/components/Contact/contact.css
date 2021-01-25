@@ -1,0 +1,46 @@
+#contact {
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+}
+
+#para{
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid;
+    padding-bottom: 12px;
+    color: white;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+}
+ #links i{
+     margin: 0 10px 0 10px;
+ }
+
+ #links a{
+     color: black;
+ }
+ #links i:hover{
+     animation-name: hovering;
+     animation-duration: 2s;
+ }
+
+ @keyframes hovering{
+     25%{
+         border-bottom: 2px solid white;
+     }
+     50%{
+         border-right: 2px solid white;
+     }
+     75%{
+         border-top: 2px solid white;
+     }
+     100%{
+         border-left: 2px solid white;
+     }
+ }
+

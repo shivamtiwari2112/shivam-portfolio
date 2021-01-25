@@ -1,0 +1,26 @@
+.main-header{
+    height: 80vh;
+}
+.main-header h1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 2.5em;
+    animation-name: movement;
+    animation-duration: 2s;
+}
+
+span {
+    color: rgb(180, 161, 51);
+
+}
+
+@keyframes movement{
+    from{
+        left: 0;
+    }
+    to{
+        left: 10%;
+    }
+}
+

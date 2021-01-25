@@ -1,0 +1,56 @@
+#project{
+    background: #02aab0;
+    padding: 34px;
+    color: white;
+}
+#project-grid{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+
+}
+
+.grid-box{
+    background: rgb(46, 44, 44);
+    width: 300px;
+    border: 2px solid rgb(53, 52, 52);
+    border-radius: 23px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px #004d7a, -2px -2px 2px #004d7a;
+}
+
+.grid-box:hover{
+    transition: all 1s;
+    transform: rotate(-8deg);
+}
+.grid-box img{
+    width: inherit;
+    height: 200px;
+}
+
+.about-project h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-project h5+p{
+    font-size: 14px;
+    border: 1px solid;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.project-btn a{
+    text-decoration: none;
+    margin: 5px;
+    background-color: #004d7a;
+    border-radius: 15px;
+    border: 2px solid grey;
+    color: white;
+    padding: 5px;
+}

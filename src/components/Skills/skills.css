@@ -1,0 +1,51 @@
+#skills{
+    display: flex;
+}
+
+.column-1 {
+    width: 30%;
+}
+.column-1 p{
+    font-weight: bold;
+    font-size: 2em;
+    width: 20%;
+    margin: 5em auto;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+.column-2{
+    width: 70%;
+    padding: 34px;
+}
+
+#skill-group{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skill-set{
+    margin: 3em;
+}
+
+@media (max-width: 700px) {
+    #skills{
+        flex-direction: column;
+    }
+    .column-1 {
+        width: 100%;
+    }
+    .column-1 p{
+        font-weight: bold;
+        font-size: 2em;
+        width: 14%;
+        
+    }
+    #skill-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
